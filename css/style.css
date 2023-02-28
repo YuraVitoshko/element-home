@@ -1149,7 +1149,7 @@ textarea.input {
   min-height: 100%;
 }
 
-.swiper-slide-testmonials__wrapper {
+.swiper-slide-testmonials__wrap {
   min-height: 100%;
   padding: 2rem 1.5rem;
   background-color: #E3C59E;
@@ -1206,16 +1206,12 @@ textarea.input {
   color: #262626;
 }
 
-.swiper-slide-testmonials__image {
-  max-width: 100%;
-  position: relative;
+.swiper-slide-testmonials__image-ibg {
+  min-height: 100%;
+  padding-bottom: 100%;
 }
 
-.swiper-slide-testmonials__image img {
-  min-width: 100%;
-}
-
-.swiper-slide-testmonials__image span {
+.swiper-slide-testmonials__image-ibg a {
   position: absolute;
   bottom: 12.2%;
   left: 50%;
@@ -1237,7 +1233,7 @@ textarea.input {
           align-items: center;
 }
 
-.swiper-slide-testmonials__image span::after {
+.swiper-slide-testmonials__image-ibg a::after {
   content: "";
   background: url("../img/testmonials/play-icon.svg") 0 0 no-repeat;
   width: 0.8125rem;
