@@ -866,11 +866,6 @@ textarea.input {
           justify-content: space-between;
 }
 
-.popular__slider {
-  -ms-touch-action: cross-slide-y;
-      touch-action: cross-slide-y;
-}
-
 .slider-buttons-popular {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1089,11 +1084,6 @@ textarea.input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.testmonials__slider {
-  -ms-touch-action: cross-slide-y;
-      touch-action: cross-slide-y;
 }
 
 .testmonials__more {
@@ -1352,6 +1342,8 @@ textarea.input {
 
 .swiper {
   overflow: hidden;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
 }
 
 .swiper-wrapper {
