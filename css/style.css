@@ -1146,7 +1146,7 @@ textarea.input {
 .swiper-slide-testmonials {
   border-radius: 0.25rem;
   overflow: hidden;
-  min-height: 100%;
+  height: 26.4375rem;
 }
 
 .swiper-slide-testmonials__wrap {
